@@ -1,0 +1,11 @@
+{
+  "names": {
+    "nav2_constrained_smoother": {
+      "cmake-args": [
+        "-DCeres_DIR=/usr/lib/cmake/Ceres",
+        "-Dglog_DIR=/usr/lib/aarch64-linux-gnu/cmake/glog",
+        "-Dgflags_DIR=/usr/lib/aarch64-linux-gnu/cmake/gflags"
+      ]
+    }
+  }
+}

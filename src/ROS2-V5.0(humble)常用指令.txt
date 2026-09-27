@@ -1,0 +1,6 @@
+V550 麦轮版：手动给目标点，边建图边导航
+
+bash /home/wheeltec/wheeltec_ros2/tools/v550.sh
+
+RViz 中使用 Nav2 Goal 指定目标点。
+详细说明、保存地图、自定义算法接口：../README_V550.md

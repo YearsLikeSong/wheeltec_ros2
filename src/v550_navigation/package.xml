@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>v550_navigation</name>
+  <version>0.1.0</version>
+  <description>V550 mecanum navigation while mapping and algorithm integration.</description>
+  <maintainer email="wheeltec@todo.todo">wheeltec</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_common</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>turn_on_wheeltec_robot</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

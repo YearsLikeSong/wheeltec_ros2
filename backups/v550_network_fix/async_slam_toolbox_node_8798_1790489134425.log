@@ -1,0 +1,16 @@
+[INFO] [1790489134.502433493] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1790489134.923596930] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1790489134.924360528] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[WARN] [1790489145.165405288] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.2 m)
+[INFO] [1790489145.481389285] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489145.236 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489148.010324566] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489147.735 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489150.523932808] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489150.320 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489153.110787073] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489152.905 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489161.839201941] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489161.574 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489164.911458866] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489164.408 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489168.562313159] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489168.325 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489172.296534547] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489172.049 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489177.032513234] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489176.824 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489179.628224200] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489179.408 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489198.788669187] [slam_toolbox]: Message Filter dropping message: frame 'laser' at time 1790489198.578 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1790489217.662536564] [rclcpp]: signal_handler(signum=2)

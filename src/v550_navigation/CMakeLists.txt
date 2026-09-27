@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.8)
+project(v550_navigation)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY launch config rviz DESTINATION share/${PROJECT_NAME})
+install(PROGRAMS scripts/send_goal.py DESTINATION lib/${PROJECT_NAME} RENAME send_goal)
+install(PROGRAMS scripts/normalize_scan.py DESTINATION lib/${PROJECT_NAME} RENAME normalize_scan)
+ament_package()

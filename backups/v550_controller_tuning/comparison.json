@@ -1,0 +1,48 @@
+{
+  "tuning_before": {
+    "near_wall": true,
+    "synthetic_deadband": 0.04,
+    "goal": [
+      0.9,
+      0.0
+    ],
+    "position": [
+      0.6174727517384636,
+      -0.05212785129237379,
+      -0.4399639208333298
+    ],
+    "position_error": 0.287295943045835,
+    "min_wall_clearance": 0.4144070249126571
+  },
+  "tuning_after": {
+    "near_wall": true,
+    "synthetic_deadband": 0.04,
+    "goal": [
+      0.9,
+      0.0
+    ],
+    "position": [
+      0.7659971741278789,
+      0.015299832866376884,
+      -0.2465487343999999
+    ],
+    "position_error": 0.13487343039847793,
+    "min_wall_clearance": 0.28082612522984485
+  },
+  "tuning_lateral_turn": {
+    "near_wall": false,
+    "synthetic_deadband": 0.04,
+    "goal": [
+      0.7,
+      0.5
+    ],
+    "goal_yaw": 1.57079632679,
+    "position": [
+      0.6632625019786795,
+      0.3900999615423472,
+      1.2946662547666772
+    ],
+    "position_error": 0.11587778999385552,
+    "min_wall_clearance": 2.1460719972559104
+  }
+}

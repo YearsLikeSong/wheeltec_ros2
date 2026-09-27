@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    [
+      "v550_readonly_local_probe",
+      "/"
+    ]
+  ],
+  "publishers": {
+    "/scan": [],
+    "/odom": [],
+    "/robot_description": [],
+    "/tf": [],
+    "/map": []
+  }
+}

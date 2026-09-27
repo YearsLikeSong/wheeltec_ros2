@@ -1,0 +1,640 @@
+{
+  "nodes": [
+    [
+      "lslidar_driver_node",
+      "/"
+    ],
+    [
+      "slam_toolbox",
+      "/"
+    ],
+    [
+      "transform_listener_impl_aaaaf9a98470",
+      "/"
+    ],
+    [
+      "v550_readonly_diagnostics",
+      "/"
+    ],
+    [
+      "launch_ros_13247",
+      "/"
+    ],
+    [
+      "wheeltec_robot",
+      "/"
+    ],
+    [
+      "robot_state_publisher",
+      "/"
+    ],
+    [
+      "joint_state_publisher",
+      "/"
+    ],
+    [
+      "base_to_link",
+      "/"
+    ],
+    [
+      "base_to_gyro",
+      "/"
+    ],
+    [
+      "imu_filter_madgwick",
+      "/"
+    ],
+    [
+      "ekf_filter_node",
+      "/"
+    ],
+    [
+      "transform_listener_impl_aaab023fd0a0",
+      "/"
+    ]
+  ],
+  "topics": {
+    "/odom_combined": {
+      "count": 151,
+      "hz": 10.0,
+      "first": {
+        "t": 1373.365826326,
+        "stamp": 1790424866.5203285,
+        "frame": "odom_combined",
+        "yaw": 1.7158886231882775e-06,
+        "wz": 7.985215345689915e-07,
+        "qnorm": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "yaw_cov": 0.1918024282397266,
+        "wz_cov": 9.990000041705156e-10
+      },
+      "last": {
+        "t": 1388.360801994,
+        "stamp": 1790424881.5210662,
+        "frame": "odom_combined",
+        "yaw": 1.0235177503759019e-05,
+        "wz": 5.323476703300535e-07,
+        "qnorm": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "yaw_cov": 1.091846689789105,
+        "wz_cov": 9.990000103974655e-10
+      },
+      "yaw_change_deg": 0.0004881192973094351,
+      "yaw_span_deg": 0.0004881192973094351,
+      "wz": {
+        "min": -7.98520738956067e-07,
+        "max": 9.316074610221312e-06,
+        "mean": 5.887553297381493e-07
+      },
+      "vx": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "vy": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "qnorm": {
+        "min": 0.9999999999999999,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    "odom_combined -> base_footprint": {
+      "count": 151,
+      "hz": 10.0,
+      "first": {
+        "t": 1373.366359522,
+        "yaw": 1.7158886231882775e-06,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "last": {
+        "t": 1388.361402167,
+        "yaw": 1.0235177503759019e-05,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "yaw_change_deg": 0.0004881192973094351,
+      "yaw_span_deg": 0.0004881192973094351
+    },
+    "map -> odom_combined": {
+      "count": 752,
+      "hz": 50.01,
+      "first": {
+        "t": 1373.367157235,
+        "yaw": 5.293955920339368e-23,
+        "x": 0.0,
+        "y": -0.0
+      },
+      "last": {
+        "t": 1388.383345038,
+        "yaw": 5.293955920339368e-23,
+        "x": 0.0,
+        "y": -0.0
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_footprint -> gyro_link": {
+      "count": 1,
+      "hz": 0,
+      "first": {
+        "t": 1373.371083559,
+        "yaw": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "last": {
+        "t": 1373.371083559,
+        "yaw": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "/odom": {
+      "count": 300,
+      "hz": 20.0,
+      "first": {
+        "t": 1373.393706382,
+        "stamp": 1790424866.570066,
+        "frame": "odom_combined",
+        "yaw": 0.0,
+        "wz": 0.0,
+        "qnorm": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "yaw_cov": 1e-09,
+        "wz_cov": 1e-09
+      },
+      "last": {
+        "t": 1388.345116762,
+        "stamp": 1790424881.5210662,
+        "frame": "odom_combined",
+        "yaw": 0.0,
+        "wz": 0.0,
+        "qnorm": 1.0,
+        "x": 0.0,
+        "y": 0.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "yaw_cov": 1e-09,
+        "wz_cov": 1e-09
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0,
+      "wz": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "vx": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "vy": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "qnorm": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0
+      }
+    },
+    "/imu/data_raw": {
+      "count": 300,
+      "hz": 20.0,
+      "first": {
+        "t": 1373.394189592,
+        "stamp": 1790424866.570066,
+        "frame": "gyro_link",
+        "yaw": 0.0020118380364418462,
+        "wz": 0.0007993200561031699,
+        "qnorm": 0.9983133520872574,
+        "yaw_cov": 1e-06,
+        "wz_cov": 1e-06
+      },
+      "last": {
+        "t": 1388.34562522,
+        "stamp": 1790424881.5210662,
+        "frame": "gyro_link",
+        "yaw": 0.011873861828021708,
+        "wz": 0.0005328800179995596,
+        "qnorm": 0.9983133533598351,
+        "yaw_cov": 1e-06,
+        "wz_cov": 1e-06
+      },
+      "yaw_change_deg": 0.5650523407151319,
+      "yaw_span_deg": 0.5650523407151319,
+      "wz": {
+        "min": -0.007993199862539768,
+        "max": 0.009325399994850159,
+        "mean": 0.0005710697581525892
+      },
+      "qnorm": {
+        "min": 0.9983132981731795,
+        "max": 0.9983134407463772,
+        "mean": 0.9983133687197194
+      }
+    },
+    "/imu/data": {
+      "count": 300,
+      "hz": 20.0,
+      "first": {
+        "t": 1373.39500961,
+        "stamp": 1790424866.570066,
+        "frame": "gyro_link",
+        "yaw": 2.0684471405636002,
+        "wz": 0.0007993200561031699,
+        "qnorm": 1.0,
+        "yaw_cov": 0.0025000000000000005,
+        "wz_cov": 1e-06
+      },
+      "last": {
+        "t": 1388.346884159,
+        "stamp": 1790424881.5210662,
+        "frame": "gyro_link",
+        "yaw": 2.0783787028742378,
+        "wz": 0.0005328800179995596,
+        "qnorm": 1.0,
+        "yaw_cov": 0.0025000000000000005,
+        "wz_cov": 1e-06
+      },
+      "yaw_change_deg": 0.5690366043707258,
+      "yaw_span_deg": 0.5716668074448343,
+      "wz": {
+        "min": -0.007993199862539768,
+        "max": 0.009325399994850159,
+        "mean": 0.0005710697581525892
+      },
+      "qnorm": {
+        "min": 0.9999999999999998,
+        "max": 1.0000000000000002,
+        "mean": 1.0
+      }
+    },
+    "/scan": {
+      "count": 180,
+      "hz": 11.99,
+      "first": {
+        "t": 1373.42497563,
+        "frame": "laser",
+        "size": 1667,
+        "increment": 0.0037691574543714523,
+        "angle_min": 0.0,
+        "angle_max": 6.2831854820251465,
+        "time_increment": 4.99355883221142e-05,
+        "scan_time": 0.08314275741577148,
+        "age": 0.002496753185302736,
+        "scan_alignment_deg": 0.0
+      },
+      "last": {
+        "t": 1388.348098298,
+        "frame": "laser",
+        "size": 1668,
+        "increment": 0.0037668978329747915,
+        "angle_min": 0.0,
+        "angle_max": 6.2831854820251465,
+        "time_increment": 5.013358895666897e-05,
+        "scan_time": 0.08352255821228027,
+        "age": 0.0013528669355468148,
+        "scan_alignment_deg": 0.0
+      },
+      "age": {
+        "min": 0.0010443864299316263,
+        "max": 0.006201716399414026,
+        "mean": 0.001794744109004012
+      },
+      "scan_alignment_deg": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    },
+    "base_link -> lb_wheel_link": {
+      "count": 142,
+      "hz": 10.0,
+      "first": {
+        "t": 1374.256783172,
+        "yaw": 0.0,
+        "x": -0.0816580880459208,
+        "y": 0.0983054469516561
+      },
+      "last": {
+        "t": 1388.356179783,
+        "yaw": 0.0,
+        "x": -0.0816580880459208,
+        "y": 0.0983054469516561
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_link -> lf_wheel_link": {
+      "count": 142,
+      "hz": 10.0,
+      "first": {
+        "t": 1374.256816388,
+        "yaw": 0.0,
+        "x": 0.0759419119540792,
+        "y": 0.0983014469516561
+      },
+      "last": {
+        "t": 1388.356214472,
+        "yaw": 0.0,
+        "x": 0.0759419119540792,
+        "y": 0.0983014469516561
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_link -> rb_wheel_link": {
+      "count": 142,
+      "hz": 10.0,
+      "first": {
+        "t": 1374.256837189,
+        "yaw": 0.0,
+        "x": -0.0816580880459208,
+        "y": -0.0982745530483439
+      },
+      "last": {
+        "t": 1388.35622852,
+        "yaw": 0.0,
+        "x": -0.0816580880459208,
+        "y": -0.0982745530483439
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_link -> rf_wheel_link": {
+      "count": 142,
+      "hz": 10.0,
+      "first": {
+        "t": 1374.256850021,
+        "yaw": 0.0,
+        "x": 0.0759419119540792,
+        "y": -0.0982785530483439
+      },
+      "last": {
+        "t": 1388.356240072,
+        "yaw": 0.0,
+        "x": 0.0759419119540792,
+        "y": -0.0982785530483439
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_footprint -> base_link": {
+      "count": 1,
+      "hz": 0,
+      "first": {
+        "t": 1374.275676922,
+        "yaw": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "last": {
+        "t": 1374.275676922,
+        "yaw": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_link -> camera_link": {
+      "count": 1,
+      "hz": 0,
+      "first": {
+        "t": 1374.277383326,
+        "yaw": 0.0,
+        "x": 0.00160091195407919,
+        "y": -0.00010055304834393
+      },
+      "last": {
+        "t": 1374.277383326,
+        "yaw": 0.0,
+        "x": 0.00160091195407919,
+        "y": -0.00010055304834393
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_link -> controller_link": {
+      "count": 1,
+      "hz": 0,
+      "first": {
+        "t": 1374.277405471,
+        "yaw": 0.0,
+        "x": -0.0539080491826598,
+        "y": -0.011432266551253
+      },
+      "last": {
+        "t": 1374.277405471,
+        "yaw": 0.0,
+        "x": -0.0539080491826598,
+        "y": -0.011432266551253
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "base_link -> laser": {
+      "count": 1,
+      "hz": 0,
+      "first": {
+        "t": 1374.277422079,
+        "yaw": -3.14159265358979,
+        "x": 0.0834767944381037,
+        "y": 1.32296970929568e-05
+      },
+      "last": {
+        "t": 1374.277422079,
+        "yaw": -3.14159265358979,
+        "x": 0.0834767944381037,
+        "y": 1.32296970929568e-05
+      },
+      "yaw_change_deg": 0.0,
+      "yaw_span_deg": 0.0
+    },
+    "/map": {
+      "count": 15,
+      "hz": 1.0,
+      "first": {
+        "t": 1374.28222407,
+        "frame": "map",
+        "width": 101,
+        "height": 149,
+        "resolution": 0.05000000074505806
+      },
+      "last": {
+        "t": 1388.28234383,
+        "frame": "map",
+        "width": 101,
+        "height": 149,
+        "resolution": 0.05000000074505806
+      }
+    }
+  },
+  "tf_sources": {
+    "base_footprint": [
+      [
+        "odom_combined",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "odom_combined": [
+      [
+        "map",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "gyro_link": [
+      [
+        "base_footprint",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "lb_wheel_link": [
+      [
+        "base_link",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "lf_wheel_link": [
+      [
+        "base_link",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "rb_wheel_link": [
+      [
+        "base_link",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "rf_wheel_link": [
+      [
+        "base_link",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "base_link": [
+      [
+        "base_footprint",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "camera_link": [
+      [
+        "base_link",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "controller_link": [
+      [
+        "base_link",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ],
+    "laser": [
+      [
+        "base_link",
+        "unavailable_in_this_rclpy_version"
+      ]
+    ]
+  },
+  "publishers": {
+    "/tf": [
+      {
+        "name": "slam_toolbox",
+        "namespace": "/",
+        "gid": "010f05b10f345e4400000100000016030000000000000000"
+      },
+      {
+        "name": "slam_toolbox",
+        "namespace": "/",
+        "gid": "010f05b10f345e4400000100000026030000000000000000"
+      },
+      {
+        "name": "robot_state_publisher",
+        "namespace": "/",
+        "gid": "010f05b1db33562f00000000000012030000000000000000"
+      },
+      {
+        "name": "imu_filter_madgwick",
+        "namespace": "/",
+        "gid": "010f05b1e3334cb900000000000012030000000000000000"
+      },
+      {
+        "name": "ekf_filter_node",
+        "namespace": "/",
+        "gid": "010f05b1f133065200000000000017030000000000000000"
+      }
+    ],
+    "/tf_static": [
+      {
+        "name": "robot_state_publisher",
+        "namespace": "/",
+        "gid": "010f05b1db33562f00000000000013030000000000000000"
+      },
+      {
+        "name": "base_to_link",
+        "namespace": "/",
+        "gid": "010f05b1df33f6c200000000000012030000000000000000"
+      },
+      {
+        "name": "base_to_gyro",
+        "namespace": "/",
+        "gid": "010f05b1e133fef500000000000012030000000000000000"
+      }
+    ],
+    "/scan": [
+      {
+        "name": "lslidar_driver_node",
+        "namespace": "/",
+        "gid": "010f05b10d34774a00000000000013030000000000000000"
+      }
+    ],
+    "/odom": [
+      {
+        "name": "wheeltec_robot",
+        "namespace": "/",
+        "gid": "010f05b1d933679f00000000000012030000000000000000"
+      }
+    ],
+    "/odom_combined": [
+      {
+        "name": "ekf_filter_node",
+        "namespace": "/",
+        "gid": "010f05b1f133065200000000000021030000000000000000"
+      }
+    ],
+    "/imu/data_raw": [
+      {
+        "name": "wheeltec_robot",
+        "namespace": "/",
+        "gid": "010f05b1d933679f00000000000013030000000000000000"
+      }
+    ],
+    "/cmd_vel": []
+  },
+  "scan_first_last": {
+    "best_shift_bins": -1,
+    "median_range_error_m": 0.0,
+    "zero_shift_median_error_m": 0.0
+  }
+}

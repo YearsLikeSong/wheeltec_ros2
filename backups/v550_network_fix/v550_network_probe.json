@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    [
+      "v550_readonly_network_probe",
+      "/"
+    ],
+    [
+      "slam_toolbox",
+      "/"
+    ],
+    [
+      "transform_listener_impl_aaaae9a2ab00",
+      "/"
+    ],
+    [
+      "controller_server",
+      "/"
+    ],
+    [
+      "local_costmap",
+      "/local_costmap"
+    ],
+    [
+      "transform_listener_impl_aaaaf5187570",
+      "/"
+    ],
+    [
+      "smoother_server",
+      "/"
+    ],
+    [
+      "planner_server",
+      "/"
+    ],
+    [
+      "global_costmap",
+      "/global_costmap"
+    ],
+    [
+      "behavior_server",
+      "/"
+    ],
+    [
+      "bt_navigator",
+      "/"
+    ],
+    [
+      "waypoint_follower",
+      "/"
+    ],
+    [
+      "lifecycle_manager_navigation",
+      "/"
+    ],
+    [
+      "launch_ros_110218",
+      "/"
+    ],
+    [
+      "robot_state_publisher_V550_mec",
+      "/"
+    ],
+    [
+      "wheeltec_robot",
+      "/"
+    ],
+    [
+      "base_to_link",
+      "/"
+    ],
+    [
+      "base_to_gyro",
+      "/"
+    ],
+    [
+      "joint_state_publisher",
+      "/"
+    ],
+    [
+      "imu_filter_madgwick",
+      "/"
+    ],
+    [
+      "ekf_filter_node",
+      "/"
+    ],
+    [
+      "transform_listener_impl_aaaaad1ae0a0",
+      "/"
+    ],
+    [
+      "_ros2cli_daemon_0_b3f50e9926944fef8e7b6f0e29f67dcc",
+      "/"
+    ],
+    [
+      "lslidar_driver_node",
+      "/"
+    ],
+    [
+      "rviz2",
+      "/"
+    ],
+    [
+      "transform_listener_impl_aaaae0d0ace0",
+      "/"
+    ],
+    [
+      "rviz2",
+      "/"
+    ],
+    [
+      "rosbag2_recorder",
+      "/"
+    ]
+  ],
+  "publishers": {
+    "/scan": [
+      {
+        "name": "lslidar_driver_node",
+        "namespace": "/",
+        "gid": "010f540cc9aec67200000000000013030000000000000000"
+      }
+    ],
+    "/scan_slam": [],
+    "/tf": [
+      {
+        "name": "slam_toolbox",
+        "namespace": "/",
+        "gid": "010f540c1daf1c7900000100000016030000000000000000"
+      },
+      {
+        "name": "slam_toolbox",
+        "namespace": "/",
+        "gid": "010f540c1daf1c7900000100000026030000000000000000"
+      },
+      {
+        "name": "robot_state_publisher_V550_mec",
+        "namespace": "/",
+        "gid": "010f540c9bae694500000000000012030000000000000000"
+      },
+      {
+        "name": "imu_filter_madgwick",
+        "namespace": "/",
+        "gid": "010f540ca8ae127d00000000000012030000000000000000"
+      },
+      {
+        "name": "ekf_filter_node",
+        "namespace": "/",
+        "gid": "010f540cb5ae4ebc00000000000017030000000000000000"
+      }
+    ],
+    "/tf_static": [
+      {
+        "name": "robot_state_publisher_V550_mec",
+        "namespace": "/",
+        "gid": "010f540c9bae694500000000000013030000000000000000"
+      },
+      {
+        "name": "base_to_link",
+        "namespace": "/",
+        "gid": "010f540c9fae085800000000000012030000000000000000"
+      },
+      {
+        "name": "base_to_gyro",
+        "namespace": "/",
+        "gid": "010f540ca1ae8b3900000000000012030000000000000000"
+      }
+    ],
+    "/odom": [
+      {
+        "name": "wheeltec_robot",
+        "namespace": "/",
+        "gid": "010f540c9dae4c6900000000000012030000000000000000"
+      }
+    ],
+    "/odom_combined": [
+      {
+        "name": "ekf_filter_node",
+        "namespace": "/",
+        "gid": "010f540cb5ae4ebc00000000000021030000000000000000"
+      }
+    ],
+    "/robot_description": [
+      {
+        "name": "robot_state_publisher_V550_mec",
+        "namespace": "/",
+        "gid": "010f540c9bae694500000000000014030000000000000000"
+      }
+    ],
+    "/map": [
+      {
+        "name": "slam_toolbox",
+        "namespace": "/",
+        "gid": "010f540c1daf1c7900000100000018030000000000000000"
+      }
+    ],
+    "/cmd_vel": []
+  },
+  "descriptions": [
+    {
+      "name": "V550_mec_robot",
+      "sha256": "a8c166154c1eaf185b048b079a661bddcfa439617c243303cb4a6054bc728d4a",
+      "meshes": [
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/base_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/base_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/lf_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/lf_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/lb_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/lb_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/rb_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/rb_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/rf_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/rf_wheel_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/camera_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/camera_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/laser.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/laser.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/controller_link.STL",
+        "package://wheeltec_robot_urdf/meshes/V550_mec_robot_meshes/controller_link.STL"
+      ]
+    }
+  ],
+  "static_frames": {
+    "camera_link": [
+      [
+        "base_link",
+        0.0016,
+        -0.0001,
+        0.0,
+        1.0
+      ]
+    ],
+    "controller_link": [
+      [
+        "base_link",
+        -0.05391,
+        -0.01143,
+        0.0,
+        1.0
+      ]
+    ],
+    "laser": [
+      [
+        "base_link",
+        0.08348,
+        1e-05,
+        0.0,
+        1.0
+      ]
+    ],
+    "gyro_link": [
+      [
+        "base_footprint",
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "base_link": [
+      [
+        "base_footprint",
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "label": "before",
+  "laser_yaw": 3.141592653589793,
+  "queue": 1,
+  "pose_count": 1,
+  "map_versions": 1,
+  "map_first_last": [
+    [
+      86,
+      142,
+      "b1eb6ffbf8b5a00ea91a13465ca9c0d27c4a705982ad44ba8e464c61acedf1a5"
+    ],
+    [
+      86,
+      142,
+      "b1eb6ffbf8b5a00ea91a13465ca9c0d27c4a705982ad44ba8e464c61acedf1a5"
+    ]
+  ],
+  "poses": [
+    [
+      0.0,
+      0.0,
+      9.195035503935115e-05
+    ]
+  ],
+  "tf_first_last": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -0.0,
+      1.3552527127422599e-20
+    ]
+  ],
+  "graph_max_points": 0
+}
